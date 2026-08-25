@@ -1,0 +1,6 @@
+.env
+scan_log.jsonl
+__pycache__/
+*.pyc
+venv/
+.idea/
