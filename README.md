@@ -76,12 +76,6 @@ ai-phishing-detector/
 └── scan_log.jsonl        # Auto-created — local scan history
 ```
 
-## Resume bullet (example)
-
-> Built an AI-augmented phishing detection web app (Flask + Gemini API)
-> combining 8 rule-based URL heuristics with LLM-based intent analysis;
-> outputs SOC-style verdicts with confidence scoring and maintains a
-> local audit log of all scans.
 
 ## Disclaimer
 
