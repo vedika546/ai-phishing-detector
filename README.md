@@ -55,7 +55,7 @@ python app.py
 ![Homepage](homepage.png)
 
 **Phishing URL detected**
-![Phishing Result](high-riskresult.png)
+![Phishing Result](high-risk result.png)
 
 **Safe URL result**
 ![Safe Result](safe-result.png)
