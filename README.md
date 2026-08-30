@@ -49,6 +49,16 @@ python app.py
 # http://127.0.0.1:5000
 ```
 
+## Screenshots
+
+**Homepage**
+![Homepage](homepage.png)
+
+**Phishing URL detected**
+![Phishing Result](high-riskresult.png)
+
+**Safe URL result**
+![Safe Result](safe-result.png)
 ## Project structure
 
 ```
@@ -72,20 +82,6 @@ ai-phishing-detector/
 > combining 8 rule-based URL heuristics with LLM-based intent analysis;
 > outputs SOC-style verdicts with confidence scoring and maintains a
 > local audit log of all scans.
-
-## Talking points for interviews
-
-- **Why heuristics + AI, not just one?** Explain the "defense in depth" /
-  layered-detection reasoning above.
-- **What specific phishing indicators did you check for, and why does each
-  one matter?** Walk through 2–3 from `heuristics.py` (e.g. why `@` in a URL
-  is dangerous — browsers ignore everything before it).
-- **How would you extend this for production?** e.g. add a real-time
-  threat-intel API (VirusTotal/PhishTank), rate limiting, user accounts,
-  a dashboard of historical scans, Slack/email alerting.
-- **What are the limitations?** AI can hallucinate or be wrong; heuristics
-  can false-positive on legitimate long/complex URLs (e.g. tracking links);
-  this is a decision-support tool, not a guaranteed blocker.
 
 ## Disclaimer
 
